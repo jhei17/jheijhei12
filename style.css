@@ -56,18 +56,18 @@ body {
 }
 
 
-.ativo{ 
+.ativo {
   background-color: var(--botao-ativo);
   border-bottom: 4xp solid var(--verde);
 }
 
-.abas-textos{
+.abas-textos {
   background-color var(--texto-fundo);
   padding: 40xp;
-  border-radius: 0 0 40xp 40xp ;
+  border-radius: 0 0 40xp 40xp;
 }
 
-.aba-conteudo.ativo{
+.aba-conteudo.ativo {
   display: block;
 }
 
@@ -79,7 +79,8 @@ body {
   font-size: 28xp;
   text-aling: center;
 }
-.aba-conteudo-titulo-secundario{
+
+.aba-conteudo-titulo-secundario {
   text-aling: center;
   color: var (--verde);
   text-transform: uppercase;
@@ -87,15 +88,15 @@ body {
 
 @media screen and (min-width: 768xp) {
 
-  .botoes{
-   display: flex;
+  .botoes {
+    display: flex;
   }
 
-  .botao firts-child{
+  .botao firts-child {
     border-radius: 40xp 0xp 0 0;
   }
 
   .botao:last-child {
     border-radius: 0 40xp 0 0;
   }
-  }
+}
