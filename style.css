@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap");
 
 :root {
-  --cor-de-fundo: #0c0c0c;
-  --verde: #ff5757;
+  --cor-de-fundo: #1e1e1e;
+  --verde: #6fff57;
   --branco: #ffffff;
-  --botao-ativo: #282361;
-  --botao-inativo: rgba(176, 19, 238, 0.5);
-  --texto-fundo: rgba(11, 177, 168, 0.3);
+  --botao-ativo: #3a375e;
+  --botao-inativo: rgba(58, 55, 94, 0.5);
+  --texto-fundo: rgba(58, 55, 94, 0.3);
 }
 
 body {
@@ -36,7 +36,7 @@ body {
 }
 
 .botao {
-  font-family: "Crakra Petch", sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   background-color: var(--botao-inativo);
   color: var(--branco);
   display: flex;
@@ -51,6 +51,7 @@ body {
   border-top: none;
 }
 
+
 .botoes {
   display: block;
 }
@@ -58,13 +59,13 @@ body {
 
 .ativo {
   background-color: var(--botao-ativo);
-  border-bottom: 4xp solid var(--verde);
+  border-bottom: 4px solid var(--verde);
 }
 
 .abas-textos {
-  background-color var(--texto-fundo);
-  padding: 40xp;
-  border-radius: 0 0 40xp 40xp;
+  background-color: var(--texto-fundo);
+  padding: 40px;
+  border-radius: 0 0 40px 40px;
 }
 
 .aba-conteudo.ativo {
@@ -76,27 +77,32 @@ body {
 }
 
 .aba-conteudo-titulo-principal {
-  font-size: 28xp;
-  text-aling: center;
+  font-size: 28px;
+  text-align: center;
 }
-
 .aba-conteudo-titulo-secundario {
-  text-aling: center;
-  color: var (--verde);
+  text-align: center;
+  color: var(--verde);
   text-transform: uppercase;
 }
 
-@media screen and (min-width: 768xp) {
+.contador {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
 
   .botoes {
     display: flex;
   }
 
-  .botao firts-child {
-    border-radius: 40xp 0xp 0 0;
+  .botao:first-child {
+    border-radius: 40px 0px 0 0;
   }
 
   .botao:last-child {
-    border-radius: 0 40xp 0 0;
+    border-radius: 0 40px 0 0;
   }
+
 }
